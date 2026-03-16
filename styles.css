@@ -63,6 +63,7 @@ body{
 }
 .logos div:hover{
     box-shadow: inset 1px 1px 5px black;
+    cursor: pointer;
 }
 .prelogo-cont{
     margin-bottom: 30px;
