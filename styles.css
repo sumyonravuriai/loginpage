@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(232, 232, 232);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+.login-box{
+    background-color: white;
+    width: 50%;
+    max-width: 400px;
+    min-width: 400px;
+    height: 490px;
+    padding: 55px 35px 30px 40px;
+    border-radius: 2px;
+}
+.logos div img{
+    height: 25px;
+}
+.login-head h2{
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+.login-head p{
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 25px;
+}
+.login-name input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.login-name{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 30px;
+}
+.prelogo-cont p{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logos div{
+    padding: 15px 30px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 4px;
+}
+.prelogo-cont{
+    margin-bottom: 30px;
+}
+button{
+    color: white;
+    background-color:#0366ff;
+    width: 100%;
+    padding: 15px 5px;
+    border: none;
+    border-radius: 4px;
+}
+.login-name input:focus{
+    border-color: #0368ff94;
+    outline-color: #0368ff8a;
+}
+button:hover{
+    box-shadow: 2px 2px 8px black;
+}
+
